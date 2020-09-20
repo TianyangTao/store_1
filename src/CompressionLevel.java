@@ -22,7 +22,7 @@ public class CompressionLevel {
     }
     public static void Zipcom(String filePath,String outpath)
     {
-        /*
+        /*l
         FileInputStream流被称为文件字节输入流，意思指对文件数据以字节的形式进行读取操作如读取图片视频等
         从输入流中读取一个字节返回int型变量，若到达文件末尾，则返回-1，返回byte类型
         读取的字节实际是由8位二进制组成，二进制文件不利于直观查看，可以转成常用的十进制进行展示，因此需要把读取的字节从二进制转成十进制整数，故返回int型
